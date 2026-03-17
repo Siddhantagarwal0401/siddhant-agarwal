@@ -218,6 +218,37 @@ section h3:first-of-type {
     font-weight: 400;
 }
 
+.project-link {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.95rem;
+    margin-bottom: 1.25rem;
+    font-weight: 500;
+    background: linear-gradient(135deg, #f0f7ff 0%, #e0f0ff 100%);
+    border-left: 3px solid #2563eb;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.project-link:hover {
+    background: linear-gradient(135deg, #e0f0ff 0%, #d0e8ff 100%);
+    transform: translateX(4px);
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.1);
+}
+
+.project-link a {
+    color: #2563eb;
+    border-bottom: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.project-link a:hover {
+    color: #1d4ed8;
+}
+
 /* Paragraph Styles */
 p {
     margin-bottom: 1.25rem;
